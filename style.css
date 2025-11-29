@@ -912,8 +912,14 @@ li {
         margin: 0;
         padding: 20px;
     }
-    .about-card{
+    .about-card, .value-card{
         padding: 20px;
+        margin: 0;
+        width: 320px;
+    }
+    .glass{
+        padding: 20px;
+        margin: 0;
     }
     /* Réduit les titres */
     h2 {
