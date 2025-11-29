@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>À propos - smart nation</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <div class="nav-header">
+            <div class="logo">
+                <img src="images/smartnation.png" alt="smart nation">
+                <h3>smart nation</h3>
+            </div>
+            <div class="hamburger" id="hamburger"></div>
+        </div>
+        <div class="links" id="nav-links">
+            <a href="index.html">Accueil</a>
+            <a href="about.html" class="active">À propos</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="about-hero">
+    <div class="container centered">
+        <div>
+            <img src="images/smartnation.png" alt="smart nation" class="about-image">
+            <h1>Qui sommes-nous ?</h1>
+            <p class="max-width">
+                Une communauté de passionnés unis par l’envie d’apprendre, de créer et d’innover.
+                Depuis 2025, nous construisons l’avenir ensemble.
+            </p>
+        </div>
+    </div>
+</section>
+<main>
+    <div>
+        <!-- SECTION HISTOIRE -->
+        <section class="section bg-about-pattern">
+            <div class="container centered">
+
+                <div>
+                    <h2>Notre histoire</h2>
+
+                    <div class="about-card">
+                    <div >
+                        <p>
+                            smart nation est née avec une idée simple : créer un espace où développeurs,
+                            designers, ingénieurs et passionnés peuvent évoluer ensemble.  
+                            Au fil du temps, notre communauté est devenue un véritable hub d’apprentissage,
+                            de collaboration et d’innovation.
+                        </p>
+                        <p>
+                            Aujourd’hui, nous rassemblons des membres de tous niveaux, du débutant au professionnel,
+                            autour de projets ambitieux, d’ateliers et d’événements inspirants.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            </div>
+        </section>
+
+        <!-- VALEURS -->
+        <section class="section">
+            <div class="container centered">
+
+                <div>
+                    <h2>Nos valeurs</h2>
+
+                    <div class="stats-grid">
+
+                        <div class="value-card glass">
+                            <h3>🚀 Innovation</h3>
+                            <p>Tester, créer, expérimenter : nous repoussons les limites.</p>
+                        </div>
+
+                        <div class="value-card glass">
+                            <h3>🤝 Partage</h3>
+                            <p>Chaque membre peut apprendre et enseigner, quel que soit son niveau.</p>
+                        </div>
+
+                        <div class="value-card glass">
+                            <h3>🌍 Ouverture</h3>
+                            <p>Une communauté inclusive : chacun a sa place.</p>
+                        </div>
+
+                        <div class="value-card glass">
+                            <h3>💡 Collaboration</h3>
+                            <p>Nous avançons ensemble : le collectif est notre force.</p>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- IMPACT -->
+        <section class="section bg-light">
+            <div class="container centered">
+
+                <h2>Notre impact</h2>
+
+                <div class="stats-grid">
+                    <div class="stat glass">
+                        <h3>+20</h3>
+                        <p>Membres actifs</p>
+                    </div>
+
+                    <div class="stat glass">
+                        <h3>2</h3>
+                        <p>Événements organisés</p>
+                    </div>
+
+                    <div class="stat glass">
+                        <h3>3</h3>
+                        <p>Projets collaboratifs</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    © 2025 smart nation — Tous droits réservés.
+</footer>
+<!-- JS pour hamburger menu -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+</script>
+</body>
+</html>

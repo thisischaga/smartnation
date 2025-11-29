@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>smart nation - Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+    <nav class="nav">
+        <div class="nav-header">
+            <div class="logo">
+                <img src="images/smartnation.png" alt="smart nation">
+                <h3>smart nation</h3>
+            </div>
+            <div class="hamburger" id="hamburger"></div>
+        </div>
+        <div class="links" id="nav-links">
+            <a href="index.html" class="active">Accueil</a>
+            <a href="about.html" >À propos</a>
+            <a href="contact.html" >Contact</a>
+        </div>
+    </nav>
+</header>
+
+<section class="hero">
+    <h1>Rejoins l’avenir avec la smart nation</h1>
+    <p>Une communauté dynamique qui connecte développeurs, designers, ingénieurs et passionnés autour d’idées ambitieuses et de projets innovants.</p>
+    <a href="about.html" class="cta-btn">Découvrir notre univers</a>
+</section>
+
+<main>
+    <div>
+        <section class="section centered">
+            <h2>Notre vision</h2>
+            <p class="max-width">
+                Dans un monde où la technologie évolue plus vite que jamais, notre communauté s’engage à créer un espace
+                où chacun peut apprendre, progresser et évoluer. Nous voulons rendre la tech accessible, inclusive et inspirante.
+            </p>
+            <p class="max-width">
+                Que tu sois débutant, professionnel ou simplement curieux, tu trouveras ici un lieu pour te former,
+                échanger et participer à des projets ambitieux.
+            </p>
+        </section>
+
+        <section class="section centered">
+            <h2>Ce que nous faisons</h2>
+            <div class="activities-grid">
+                <div class="activity-card">
+                    <h3>💻 Ateliers</h3>
+                    <p>Des ateliers pratiques sur le développement web, mobile, IA, cybersécurité, UX/UI et plus encore.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>🚀 Projets collaboratifs</h3>
+                    <p>Travaille en équipe sur des projets réels, open-source ou challenges internes.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>🎤 Conférences & Talks</h3>
+                    <p>Des experts invités partagent leurs parcours, techniques et visions de l’avenir tech.</p>
+                </div>
+                <div class="activity-card">
+                    <h3>🔥 Hackathons</h3>
+                    <p>Des compétitions intenses en 24 à 48h pour repousser tes limites et innover rapidement.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="team centered">
+            <h2>L’équipe</h2>
+            <p class="max-width">Une équipe passionnée qui accompagne et anime la communauté au quotidien.</p>
+
+            <div class="team-grid">
+                <div class="member">
+                    <h3>Nom prénom(s)</h3>
+                    <p>Fondateur & Full-Stack</p>
+                    <p class="small">Expert en JS, Python et systèmes distribués, Alex supervise les projets techniques.</p>
+                </div>
+                <div class="member">
+                    <h3>Nom prénom(s)</h3>
+                    <p>UX/UI Designer</p>
+                    <p class="small">Sara crée des expériences intuitives et forme les membres au design moderne.</p>
+                </div>
+                <div class="member">
+                    <h3>Nom prénom(s)</h3>
+                    <p>DevOps & Cloud</p>
+                    <p class="small">Responsable de l’infrastructure, Mehdi organise les ateliers cloud et sécurité.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section centered">
+            <h2>Ils en parlent</h2>
+
+            <div class="testimonials-grid">
+                <div class="testimonial">
+                    <p>"Une communauté incroyable. Grâce aux ateliers j'ai pu créer mon premier site web en 2 semaines."</p>
+                    <span>— Marie L.</span>
+                </div>
+
+                <div class="testimonial">
+                    <p>"Les projets collaboratifs m'ont permis de trouver mon premier stage en développement."</p>
+                    <span>— Karim D.</span>
+                </div>
+
+                <div class="testimonial">
+                    <p>"Les conférences sont toujours enrichissantes. J’apprends quelque chose de nouveau à chaque fois."</p>
+                    <span>— Sophie P.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section centered">
+            <h2>Prêt à rejoindre l’aventure ?</h2>
+            <p class="max-width">Deviens membre gratuitement et profite de tous nos événements et ressources.</p>
+            <a href="contact.html" class="cta-btn">Nous rejoindre</a>
+        </section>
+    </div>
+</main>
+
+<footer class="footer">
+    © 2025 smart nation — Tous droits réservés.
+</footer>
+
+<!-- JS pour hamburger menu -->
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const hamburger = document.getElementById('hamburger');
+    const navLinks = document.getElementById('nav-links');
+
+    hamburger.addEventListener('click', () => {
+        navLinks.classList.toggle('active');
+    });
+});
+</script>
+
+</body>
+</html>
