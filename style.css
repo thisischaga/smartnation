@@ -793,7 +793,8 @@ li {
 .header {
     background: white;
     border-bottom: 1px solid #ddd;
-    position: sticky;
+    position: fixed;
+    width: 100%;
     top: 0;
     z-index: 1000;
     height: 70px;
@@ -833,7 +834,7 @@ li {
 /* Menu Desktop */
 .links {
     display: flex;
-    gap: 25px;
+    gap: 30px;
 }
 
 .links a {
